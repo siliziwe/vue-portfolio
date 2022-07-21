@@ -1,0 +1,5 @@
+<template>
+    <div>
+        <h2>Education</h2>
+    </div>
+</template>
