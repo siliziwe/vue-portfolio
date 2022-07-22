@@ -1,5 +1,6 @@
 <template>
-<h1 class="text-center bg-light">Contact Me</h1>
+<div class="container py-3">
+<h3 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-sm text-dark bg-light">Contact Me</h3></div>
 <div class="container" id="container">
 <form class="form contact-form" action="https://formspree.io/donnyburnside1@gmail.com">
 <div>
@@ -46,7 +47,38 @@
 
 
 
-<style lang="scss">
+<style scoped lang="scss">
+h3 {
+    color: hsl(0, 0%, 28%);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    padding: 24px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(212, 97%, 50%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s infinite linear;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+
+
 
 #container{
     margin-left: 400px;

@@ -1,7 +1,7 @@
 <template>
     <div id="testimonials">
-        <div class="container w-100 text-center" id="tcontainer">
-            <h1 class="text-center text-dark fst-italic shadow-sm p-3 mb-5 bg-light rounded " id="h1"> <span> Testimonials</span></h1>
+        <div class="container py-3 w-100 text-center" id="tcontainer">
+            <h3 class="text-center fst-italic shadow-lg p-3 mb-5 text-dark bg-light" id="h1">Testimonials</h3>
             <div class="mask d-flex align-items-center h-100">
                 <div>
                 <div class="row mb-3 justify-content-center text-center">
@@ -201,9 +201,40 @@
 </template>
 
 <style scoped>
+h3 {
+    color: hsl(0, 0%, 28%);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    padding: 24px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(212, 97%, 50%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s infinite linear;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+
+
 .container{
 
-    box-shadow: 10px 5px 10px  black;
+    box-shadow: 10px 5px 10px  rgb(107, 107, 107);
     width: 700px;
 }
 
@@ -282,7 +313,7 @@
 
   border-radius: 16px;
   background: #edecec;
-  box-shadow: 10px 5px 10px  black;
+  box-shadow: 10px 5px 10px  rgb(107, 107, 107);
 
   transition: .2s;
 }

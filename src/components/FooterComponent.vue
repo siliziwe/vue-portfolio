@@ -7,7 +7,7 @@
   >
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
+      <span>Get connected with me on social networks:</span>
     </div>
     <!-- Left -->
 
@@ -45,11 +45,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            <i class="fas fa-gem me-3"></i>Siliziwe Pani
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eligendi consequuntur modi hic ex neque debitis dolorum quam culpa, recusandae esse id molestias similique, accusantium ad ut eum! Pariatur, magni.
           </p>
         </div>
         <!-- Grid column -->
@@ -61,37 +60,16 @@
             Products
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset">HTML</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">CSS</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Vue</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
+            <a href="#!" class="text-reset">JAVASCRIPT</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -102,10 +80,10 @@
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3"></i> Khayelitsha, CT, SA</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            info@example.com
+            slipani16@gmail.com
           </p>
           <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
           <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
@@ -120,7 +98,7 @@
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-reset fw-bold" href="https://accounts.google.com/">slipani16@gmail.com</a>
   </div>
   <!-- Copyright -->
 </footer>

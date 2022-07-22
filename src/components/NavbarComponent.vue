@@ -5,22 +5,13 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active text-white" aria-current="page" href="/">Home<router-link to="/home"></router-link></a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="/about">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resume
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Skills</a></li>
-            <li><a class="dropdown-item" href="#">Education</a></li>
-            <li><a class="dropdown-item" href="#">Projects</a></li>
-          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="/education">Education</a>

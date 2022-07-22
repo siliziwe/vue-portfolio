@@ -1,8 +1,8 @@
 <template>
 <section id="landing" class="d-flex align-items-center justify-content-center">
     <div>
-    <h4 class="text-white text-center">Hi, I'm Siliziwe Pani</h4> <br>
-    <h2 class="text-white text-center border border-white">Front-End Developer</h2>
+    <h1 class="text-white text-center">Hi, I'm Siliziwe Pani</h1> <br>
+    <h2 class="text-white text-center border border-primary border-2"> Aspiring Front-End Developer</h2>
     </div>
 </section>
 </template>
@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #landing{
     min-height: 100vh;
     background: url(https://i.postimg.cc/Zq5YRN18/Zgw2oAP.jpg);
@@ -23,10 +23,10 @@ export default {
 
 
 
-h4{
-text-shadow: 5px 6px 2px  rgb(110, 106, 106);
+h1{
+text-shadow: 5px 6px 2px  rgb(46, 46, 46);
 }
 h2{
-text-shadow: 5px 6px 2px rgb(128, 119, 119);
+text-shadow: 5px 6px 2px rgb(46, 46, 46);
 }
 </style>

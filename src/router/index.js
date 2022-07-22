@@ -13,14 +13,9 @@ const routes = [
     component: () => import('../views/AboutView.vue')
   },
   {
-    path: '/contact',
-    name: 'contact',
-    component: () => import('../views/ContactView.vue')
-  },
-  {
-    path: '/testimonials',
-    name: 'testimonials',
-    component: () => import('../views/TestimonialsView.vue')
+    path: '/education',
+    name: 'education',
+    component: () => import('../views/EducationView.vue')
   },
   {
     path: '/skills',
@@ -28,10 +23,20 @@ const routes = [
     component: () => import('../views/SkillsView.vue')
   },
   {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('../views/ContactView.vue')
+  },
+  {
     path: '/projects',
     name: 'projects',
     component: () => import('../views/ProjectsView.vue')
-  }
+  },
+  {
+    path: '/testimonials',
+    name: 'testimonials',
+    component: () => import('../views/TestimonialsView.vue')
+  },
 ]
 
 const router = createRouter({

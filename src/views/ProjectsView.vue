@@ -1,7 +1,7 @@
 <template>
 <section id="projects">
-            <div class="container h-100 h-full" id="tcontainer">
-                <h1 class="text-center text-dark fst-italic shadow-sm p-3 mb-5 bg-light rounded" id="h1"><span>Projects</span></h1>
+            <div class="container py-3 h-100 h-full" id="tcontainer">
+                <h3 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-sm text-dark bg-light" id="h1">Projects</h3>
                 <div class="container h-100">
                     <br><br><br><br><br>
                     <div class="mask d-flex align-items-center h-100">
@@ -131,8 +131,8 @@
                                 <p class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
                                     data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
                                     data-mdb-animation-delay="400">
-                                <img src="/rainbow.png" width="100" height="110"> </p>
-                                <a href="https://zingy-baklava-1aba75.netlify.app" class="btn btn-primary">Live</a>    <a href="https://github.com/siliziwe/Rainbow" class="btn btn-primary">GitHub</a>
+                                <img src="https://i.postimg.cc/pdmj2qv4/Screenshot-2022-07-21-161528.png" width="100" height="110"> </p>
+                                <a href="https://admirable-semolina-caabb7.netlify.app" class="btn btn-primary">Live</a>    <a href="https://github.com/siliziwe/BMI-Calculator" class="btn btn-primary">GitHub</a>
                                 <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
                                     data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
                                     data-mdb-animation-delay="500">
@@ -159,8 +159,8 @@
                                 <p class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
                                     data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
                                     data-mdb-animation-delay="400">
-                                <img src="/calculator.png" width="90" height="120"> </p>
-                                <a href="https://elegant-licorice-e51a22.netlify.app" class="btn btn-primary">Live</a>    <a href="/calculator.png" class="btn btn-primary">GitHub</a>
+                                <img src="https://i.postimg.cc/50wSVnq1/Screenshot-2022-07-21-161922.png" width="90" height="120"> </p>
+                                <a href="https://regal-seahorse-bc0f5f.netlify.app " class="btn btn-primary">Live</a><a href="https://github.com/siliziwe/Temperature-calculator-js " class="btn btn-primary">GitHub</a>
                                 <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
                                     data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
                                     data-mdb-animation-delay="500">
@@ -189,7 +189,37 @@
 
 </script>
 
-<style>
+<style scoped>
+h3 {
+    color: hsl(0, 0%, 28%);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    padding: 24px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(212, 97%, 50%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s infinite linear;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+
     .card-list {
     display: flex;
     padding: 3rem;
