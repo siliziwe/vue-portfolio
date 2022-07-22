@@ -1,34 +1,35 @@
 <template>
   <div class="container py-3">
-    <h1 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-sm text-dark bg-light">About</h1>
+    <h1 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-lg text-dark bg-light" id="about">About</h1>
   </div>
 
 <div class="container mb-5" id="cont">
   <div class="row">
   <div class="column">
-    <img src="https://i.postimg.cc/1X2Brjqs/Silizwe-1-removebg-preview.png" class="mx-5 px-5" height="400" alt="">
-  </div>
+    <img src="https://i.postimg.cc/1X2Brjqs/Silizwe-1-removebg-preview.png" class="img-fluid" height="400" alt="">
+</div>
+
   <div class="column my-5" id="column2">
-    <h3 class="text-center fst-italic shadow-sm bg-light">About Me</h3>
-    <p class="text-center">I am a person who values genuine expression and honesty over blindly following the crowd. I enjoy listening to music and don't enjoy listening to you telling me how  your day was. I love being loved. I love being served. I hate drinking water. I enjoy listening to music and spending some time alone. I can charm dogs. I have no limitations. I never make the same mistake twice. I make it five or six times, just to be sure. Being attractive is just not something I have any control over. Althogh nothing ever goes as planned in this acursed world, I will sever this such fate. Bring about change. A world of only victors, love and peace, I will create such a world.</p>
+    <h3 class="text-center fst-italic shadow-lg bg-light">About Me</h3>
+    <p class="text-center">I am a person who values genuine expression and honesty over blindly following the crowd. I enjoy listening to music and spending some time alone. I hate a lot of things. I can charm dogs. I have no limitations. I never make the same mistake twice. I make it five or six times, just to be sure. Being attractive is just not something I have any control over. I enjoy coding eventhough it's not something I've been doing for a long time.</p>
   </div>
 </div>
 <div class="row justify-content-center text-center">
   <div class="col-md-4 mb-4 mb-md-5">
     <div class="card">
-    <h3 class="text-center fst-italic shadow-sm bg-light">Hobbies</h3>
+    <h3 class="text-center fst-italic shadow-lg bg-light">Hobbies</h3>
       <p class="text-center">I like playing soccer and playing mobile games. I also like spend most my time listening music. I also like drawing and also making animations using programs like FlipaClip and Stick Nodes.</p>
     </div>
   </div>
   <div class="col-md-4 mb-4 mb-md-0">
     <div class="card mask-custom-2">
-    <h3 class="text-center fst-italic shadow-sm bg-light">Music</h3>
+    <h3 class="text-center fst-italic shadow-lg bg-light">Music</h3>
       <p>I listen to Hip Hop and R&B but mostly Hip Hop. I like mostly rap music and I listen to Eminem mostly. I also like J Cole, Lil Wayne, Cordae, Joyner Lucas, Jack Halow, Royce and King Von.</p>
     </div>
   </div>
   <div class="col-md-4 mb-4 mb-md-0">
     <div class="card mask-custom-2">
-    <h3 class="text-center fst-italic shadow-sm bg-light">Favourite Quotes</h3>
+    <h3 class="text-center fst-italic shadow-lg bg-light">Favourite Quotes</h3>
       <p>
       <ul><li>"Maintain your status as a man of words while retaining a flexible approach to your actions".</li>
       <li>"Every guy is already a king; it’s simply a matter of finding out the nature of your kingdom.".</li>
@@ -111,7 +112,6 @@ img{
 }
 
 .card{
-  width: 400px;
   height: 200px;
   padding: 15px;
   box-shadow: 10px 5px 10px  rgb(107, 107, 107);

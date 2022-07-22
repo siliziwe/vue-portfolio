@@ -1,39 +1,40 @@
 <template>
-<div class="container py-3">
-<h3 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-sm text-dark bg-light">Contact Me</h3></div>
-<div class="container" id="container">
-<form class="form contact-form" action="https://formspree.io/donnyburnside1@gmail.com">
-<div>
-    <label class="form-label" for="name">Name</label>
-    <input class="form-control" id="name" name="name" type="text" required />
-</div>
-<div>
-    <label class="form-label" for="email">Email</label>
-    <input class="form-control" id="email" name="email" type="email" required />
-</div>
-<div>
-    <label class="form-label" for="subject">Subject</label>
-    <select class="form-control" id="subject" name="subject" required>
-    <option value="" selected disabled>Choose a Subject</option>
-    <optgroup label="Option Group">
-        <option value="subject-one">Subject One</option>
-        <option value="subject-two">Subject Two</option>
-        <option value="subject-three">Subject Three</option>
-    </optgroup>
-    <option value="subject-four">Subject Four</option>
-    <option value="subject-five">Subject Five</option>
-    <option value="subject-six">Subject Six</option>
-    </select>
-</div>
-<div>
-    <label class="form-label" for="message">Message</label>
-    <textarea class="form-control" id="message" name="message" required></textarea>
-</div>
-<div>
-    <button class="button" type="submit">Submit</button>
-    <button class="button" type="reset">Clear</button>
-</div>
-</form>
+<div class="container">
+	<div class="row">
+			<h3 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-sm text-dark bg-light" id="contact">Contact Me</h3>
+	</div>
+	<div class="row">
+			<h4 style="text-align:center">I'd love to hear from you!</h4>
+	</div>
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Name</label>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" required />
+					<label>Email</label>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="text" required />
+					<label>Phone Number</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required></textarea>
+					<label>Message</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="btn-lrg submit-btn">Send Message</div>
+			</div>
+	</div>
 </div>
 </template>
 
@@ -56,105 +57,161 @@ h3 {
     letter-spacing: 7px;
     cursor: pointer;
     text-transform: uppercase;
-  }
+}
 
-  h3 {
+h3 {
     padding: 24px;
     background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(212, 97%, 50%) 10%, hsl(0, 0%, 30%) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 1s infinite linear;
-  }
+}
 
-  @keyframes shine {
+@keyframes shine {
     0% {
-      background-position: 0;
+    background-position: 0;
     }
     60% {
-      background-position: 600px;
+    background-position: 600px;
     }
     100% {
-      background-position: 600px;
-    }
-  }
-
-
-
-#container{
-    margin-left: 400px;
-    box-shadow: 10px 5px 10px  black;
-    width: 700px
-}
-/*
-Form
-*/
-
-.form {
-& > div {
-    & ~ div {
-    margin-top: 20px;
-    }
-    &.is-hidden {
-    display: none;
+    background-position: 600px;
     }
 }
-&-label {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-size: 0.875rem;
-    font-weight: 700;
+
+.input-container{
+    box-shadow: 10px 10px 10px rgb(107, 107, 107,);
 }
-&-control {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font: 0.875rem/1.5 sans-serif;
-    color: #333;
-    background-color: #fff;
-    border: 1px solid #bbb;
+
+body {
+    background-color: #444442;
+    padding-top: 85px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
     border-radius: 4px;
-    box-sizing: border-box;
-}
 }
 
-/*
-Contact Form
-*/
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+}
 
-.contact-form {
-width: 100%;
-max-width: 568px;
-padding: 40px;
-background-color: #fefefe;
-border-radius: 4px;
-box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.125);
-box-sizing: border-box;
-
-&--loading {
-    opacity: 0.5;
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     pointer-events: none;
 }
-&--errors {}
-&--sent {
-    & > div ~ div {
-    margin: 0;
+
+.styled-input.wide { 
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #646464;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float: right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+                0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+                0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
     }
 }
+
+input[type=checkbox] + label {
+color: #ccc;
+font-style: italic;
 }
 
-/*
-Button
-*/
-
-.button {
-appearance: none;
-padding: 5px 10px;
-font: 0.875rem/1.5 sans-serif;
-background-color: #ddd;
-border: 1px solid transparent;
-border-radius: 4px;
-cursor: pointer;
-box-sizing: border-box;
+input[type=checkbox]:checked + label {
+color: #f00;
+font-style: normal;
 }
-
 </style>

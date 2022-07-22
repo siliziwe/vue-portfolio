@@ -8,25 +8,25 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="/">Home<router-link to="/home"></router-link></a>
+          <a class="nav-link active text-white" aria-current="page" href="/">Home<router-link to="#"></router-link></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="/about">About</a>
+          <a class="nav-link text-white" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="/education">Education</a>
+          <a class="nav-link text-white" href="#education">Education</a>
         </li>
         <li class="nav-item text-white">
-          <a class="nav-link text-white" href="/skills">Skills</a>
+          <a class="nav-link text-white" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="/projects">Projects</a>
+          <a class="nav-link text-white" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="/testimonials">Testimonials</a>
+          <a class="nav-link text-white" href="#testimonials">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="/contact">Contact</a>
+          <a class="nav-link text-white" href="#contact">Contact</a>
         </li>
         <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

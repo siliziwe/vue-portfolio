@@ -1,7 +1,7 @@
 <template>
     <div id="testimonials">
-        <div class="container py-3 w-100 text-center" id="tcontainer">
-            <h3 class="text-center fst-italic shadow-lg p-3 mb-5 text-dark bg-light" id="h1">Testimonials</h3>
+        <div class="container h-100 p-5 my-5 w-100 text-center" id="tcontainer">
+            <h3 class="text-center fst-italic shadow-lg p-3 mb-5 text-dark bg-light" id="h1 my-2">Testimonials</h3>
             <div class="mask d-flex align-items-center h-100">
                 <div>
                 <div class="row mb-3 justify-content-center text-center">
@@ -9,7 +9,7 @@
                     <div class="card mask-custom-1 py-5 text-white">
                         <div class="card-body">
                         <img class="rounded-circle shadow-2-strong mb-2"
-                            src="https://i.postimg.cc/y88rnDSV/Philani-3.jpg" alt="avatar" style="width: 100px;"
+                            src="https://i.postimg.cc/y88rnDSV/Philani-3.jpg" height="135" alt="avatar" style="width: 100px;"
                             data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
                             data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
                         <h5 class="mb-4 text-primary" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
@@ -40,7 +40,7 @@
                     <div class="card mask-custom-1 py-25 text-white">
                         <div class="card-body">
                         <img class="rounded-circle shadow-2-strong mt-4 mb-2"
-                            src="https://i.postimg.cc/6QQ41X9J/joel2.jpg" height="145" alt="avatar" style="width: 100px;"
+                            src="https://i.postimg.cc/6QQ41X9J/joel2.jpg" height="135" alt="avatar" style="width: 100px;"
                             data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
                             data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
                         <h5 class="mb-4 py-1 text-primary" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
@@ -71,7 +71,7 @@
                     <div class="card mask-custom-1 py-5 text-white">
                         <div class="card-body">
                         <img class="rounded-circle shadow-2-strong mb-2"
-                            src="https://i.postimg.cc/sx2ZbCPZ/Sibongile-1.jpg" height="145" alt="avatar" style="width: 100px;"
+                            src="https://i.postimg.cc/sx2ZbCPZ/Sibongile-1.jpg" height="135" alt="avatar" style="width: 100px;"
                             data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
                             data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
                         <h5 class="mb-4 text-primary" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
@@ -103,7 +103,7 @@
                     <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card mask-custom-1 py-5 text-white">
                         <div class="card-body">
-                        <img class="rounded-circle shadow-2-strong mb-2" height="150"
+                        <img class="rounded-circle shadow-2-strong mb-2" height="140"
                             src="https://i.postimg.cc/vDFbfWmH/liam.png" alt="avatar" style="width: 100px;"
                             data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
                             data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
@@ -135,7 +135,7 @@
                     <div class="card mask-custom-1 py-25 text-white">
                         <div class="card-body">
                         <img class="rounded-circle shadow-2-strong mt-4 mb-2"
-                            src="https://i.postimg.cc/GmdyGDVp/godwin-2.jpg" height="145" alt="avatar" style="width: 100px;"
+                            src="https://i.postimg.cc/GmdyGDVp/godwin-2.jpg" height="135" alt="avatar" style="width: 100px;"
                             data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
                             data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
                         <h5 class="mb-4 py-1 text-primary" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
@@ -166,7 +166,7 @@
                     <div class="card mask-custom-1 py-5 text-white">
                         <div class="card-body">
                         <img class="rounded-circle shadow-2-strong mb-2"
-                            src="https://i.postimg.cc/tTVpvrwN/Rasheedah-2.jpg" height="145" alt="avatar" style="width: 100px;"
+                            src="https://i.postimg.cc/tTVpvrwN/Rasheedah-2.jpg" height="135" alt="avatar" style="width: 100px;"
                             data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
                             data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
                         <h5 class="mb-4 text-primary" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
@@ -209,27 +209,27 @@ h3 {
     letter-spacing: 7px;
     cursor: pointer;
     text-transform: uppercase;
-  }
+}
 
-  h3 {
+h3 {
     padding: 24px;
     background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(212, 97%, 50%) 10%, hsl(0, 0%, 30%) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 1s infinite linear;
-  }
+}
 
-  @keyframes shine {
+@keyframes shine {
     0% {
-      background-position: 0;
+    background-position: 0;
     }
     60% {
-      background-position: 600px;
+    background-position: 600px;
     }
     100% {
-      background-position: 600px;
+    background-position: 600px;
     }
-  }
+}
 
 
 .container{
@@ -272,6 +272,10 @@ h3 {
         margin-left: 7%;
         width: 100%;
     }
+    .card[data-v-c1cfdf9a] {
+        width: auto;
+        min-width: auto;
+    }
 }
 
 .card-list {
@@ -279,7 +283,6 @@ h3 {
     padding: 3rem;
     overflow-x: scroll;
 }
-
 
 .card-list::-webkit-scrollbar {
     width: 10px;
@@ -295,7 +298,6 @@ h3 {
     background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
 }
 
-
 .card {
     display: flex;
     position: relative;
@@ -306,84 +308,82 @@ h3 {
     padding: 1.5rem;
 }
 
-
-
 .card {
   /* ... */
 
-  border-radius: 16px;
-  background: #edecec;
-  box-shadow: 10px 5px 10px  rgb(107, 107, 107);
+border-radius: 16px;
+background: #edecec;
+box-shadow: 10px 5px 10px  rgb(107, 107, 107);
 
-  transition: .2s;
+transition: .2s;
 }
 
 .card:hover {
-  transform: translateY(-1rem);
+transform: translateY(-1rem);
 }
 
 .card:hover~.card {
-  transform: translateX(130px);
+transform: translateX(130px);
 }
 
 
 .card:not(:first-child) {
-  margin-left: -130px;
+margin-left: -130px;
 }
 
 
 
 .card-author {
-  position: relative;
-  display: grid;
-  grid-template-columns: 75px 1fr;
-  align-items: center;
-  margin: 3rem 0 0;
+position: relative;
+display: grid;
+grid-template-columns: 75px 1fr;
+align-items: center;
+margin: 3rem 0 0;
 }
 
 .author-avatar img {
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  filter: grayscale(100%);
-  margin: 16px 10px;
+display: block;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+filter: grayscale(100%);
+margin: 16px 10px;
 }
 
 .half-circle {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 60px;
-  height: 48px;
-  fill: none;
-  stroke: #ff8a00;
-  stroke-width: 8;
-  stroke-linecap: round;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 60px;
+height: 48px;
+fill: none;
+stroke: #ff8a00;
+stroke-width: 8;
+stroke-linecap: round;
 }
 
 
 .card-header {
-  margin-bottom: auto;
+margin-bottom: auto;
 }
 
 .card-header p {
-  font-size: 14px;
-  margin: 0 0 1rem;
-  color: #7a7a8c;
+font-size: 14px;
+margin: 0 0 1rem;
+color: #7a7a8c;
 }
 
 .card-header h2 {
-  font-size: 20px;
-  margin: .25rem 0 auto;
-  cursor: pointer;
+font-size: 20px;
+margin: .25rem 0 auto;
+cursor: pointer;
 }
 
 .card-header h2:hover {
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
-  text-shadow: none;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+background: linear-gradient(90deg,#ff8a00,#e52e71);
+text-shadow: none;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 </style>

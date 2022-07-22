@@ -68,7 +68,7 @@
                     </div>
                     </div>
                     <div class="col-md-4 mb-0">
-                    <div class="card mask-custom-1 py-5 text-white">
+                    <div class="card mask-custom-1 text-white">
                         <div class="card-body" id="card">
                         <img class="rounded-circle shadow-2-strong mb-5"
                             src="https://i.postimg.cc/7YxrYpSR/Logo-Life-Choices.jpg" height="60" alt="avatar" style="width: 100px;"
@@ -253,5 +253,16 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 776px) {
+    .card[data-v-c1cfdf9a] {
+        width: auto;
+    }
+    #education .container {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+    }
 }
 </style>
