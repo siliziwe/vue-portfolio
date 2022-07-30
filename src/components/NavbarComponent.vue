@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
   <div class="container-fluid">
     <a class="navbar-brand text-white" href="#"><img src="https://i.postimg.cc/MppBCdvk/attachment-24640839-removebg-preview.png" height="70" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +51,4 @@ export default {
     background: url(https://i.postimg.cc/Zq5YRN18/Zgw2oAP.jpg);
     background-attachment: fixed;
   }
-
-
 </style>

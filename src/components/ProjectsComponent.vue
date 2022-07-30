@@ -1,12 +1,12 @@
 <template>
 <div class="container">
-<div class="row d-flex justify-content-evenly">
+<div class="row d-flex gy-5 gx-5">
 <div v-for="(pros, index) in projects" class="col-md-4 card d-flex col-md-3" :key="index">
 <div class="card-body">
 <div class="header">{{pros.name}}</div>
     <img class="img-fluid" height="70px" :src="pros.img" alt="">
-    <a href="" class="btn btn-primary">Live</a>
-    <a href="#" class="btn btn-primary">Github</a>
+    <a :href="projects.live" class="btn btn-primary gy-2">Live</a>
+    <a :href="projects.Ghub" class="btn btn-primary gy-2">Github</a>
 </div>
 </div>
 </div>
@@ -25,11 +25,22 @@ export default {
 
 
 <style scoped>
+
 .container{
     margin-top: 70px;
 }
 
+.btn-primary{
+}
 
+.card{
+border-radius: 16px;
+background: #edecec;
+box-shadow: 10px 5px 10px  rgb(107, 107, 107);
+transition: .2s;
+}
+
+/*
 .card-list {
     display: flex;
     padding: 3rem;
@@ -57,14 +68,6 @@ width: 320px;
 min-width: 250px;
 }
 
-
-.card {
-  /* ... */
-border-radius: 16px;
-background: #edecec;
-box-shadow: 10px 5px 10px  rgb(107, 107, 107);
-transition: .2s;
-}
 
 .card:hover {
 transform: translateY(-1rem);
@@ -131,5 +134,5 @@ text-shadow: none;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-}
+}*/
 </style>

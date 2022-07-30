@@ -13,6 +13,7 @@ export default{
 </script>
 
 <style scoped>
+/*
 .container{
     margin-top: 70px;
 }
@@ -48,5 +49,5 @@ h3 {
       background-position: 600px;
     }
   }
-
+*/
 </style>

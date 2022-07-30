@@ -169,7 +169,7 @@
     position: relative;
     flex-direction: column;
     height: 400px;
-    width: 400px;
+    width: 350px;
     min-width: 250px;
     padding: 1.5rem;
 }
